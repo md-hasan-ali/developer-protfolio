@@ -5,7 +5,9 @@ body {
 }
 h1 {
     font-size:50px;
-    margin: 20px 0;
+}
+h2 {
+    font-size: 40px;
 }
 .orange {
     color:orange;
@@ -13,10 +15,9 @@ h1 {
 .tomato {
     color:tomato;
 }
-section {
+.flexible-container {
     display:flex;
-    align-items: center;
-    margin-bottom: 90px;
+    margin-bottom: 100px;
 }
 .top-banner {
     background-image:url(images/top-banner.png);
@@ -49,4 +50,32 @@ a.link-button {
 }
 .padding-right {
     padding-right: 100px;
+}
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exp-item {
+    width:44%;
+    margin-left:4%;
+    margin-right: 4%;
+    box-shadow: 15px 15px 45px gray;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+#full-stack-item {
+    border-left:7px solid;
+    border-image: linear-gradient(green, tomato);
+    border-image-slice: 1;
+}
+#babby-item {
+    border-left:7px solid;
+    border-image:linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
 }
